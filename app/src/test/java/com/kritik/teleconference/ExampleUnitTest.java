@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:086f02d5e81fa340d0408c723a346e4905862bc59ffedef695b507234bfbc313
-size 386
+package com.kritik.teleconference;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
+/**
+ * Example local unit test, which will execute on the development machine (host).
+ *
+ * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
+ */
+public class ExampleUnitTest {
+    @Test
+    public void addition_isCorrect() {
+        assertEquals(4, 2 + 2);
+    }
+}
